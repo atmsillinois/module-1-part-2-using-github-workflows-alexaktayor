@@ -1,7 +1,13 @@
-# Create a README.md
+# ❄️ Model 1 Part 2 assignment! Collecting some ski data.
 
-If you need help with `Markdown`, check out [The Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)!
+This is a simple scripts that asks the user for their favorite snowflake, the snow depth on their best powder day, and the number of ski days they had last year. It then calculates snow depth + ski days and prints both inputs and outputs to the screen.
 
-What should a good README.md look like? Check out these [guidelines](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes).
+---
 
-Did you add an open source software license?
+## 📂 Project Structure
+
+```plaintext
+├── LICENSE
+├── README.md
+├── AT_Module1_Part2.py
+└── .git/ (Git tracking files)
