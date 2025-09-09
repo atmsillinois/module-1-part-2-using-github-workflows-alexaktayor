@@ -4,7 +4,8 @@ This script makes the user input their
 favorite snowflake and then their deepest
 ski day last year along with the number
 of ski days they had. It then sums 
-the two values together
+the two values together. The highest
+number wins!
 
 """
 
