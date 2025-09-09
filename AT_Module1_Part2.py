@@ -13,12 +13,16 @@ number wins!
 
 def get_favorite_snowflake() -> str:
     """
-    Prompt the user for their favorite type of snowflake and ski resort.
+    Prompt the user for their favorite type of snowflake.
     """
     snowflake = input("What is your favorite snowflake?: ")
     print(snowflake)
     return snowflake
 
+def get_favorite_ski_resort() -> str:
+    """
+    Prompt the user for their favorite type ski resort.
+    """
     ski_resort = input("What is your favorite ski resort?: ")
     print(ski_resort)
     return ski_resort
@@ -41,6 +45,7 @@ def main() -> None:
     Get stats and compute total.
     """
     get_favorite_snowflake()  # Optional, runs input and print
+    get_favorite_ski_resort()  # Optional, runs input and print
 
     snow_depth, ski_days = get_snow_and_ski_stats()
     total = snow_depth + ski_days
