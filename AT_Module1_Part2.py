@@ -1,7 +1,8 @@
 """
 This is for assignment 1 part 2.
 This script makes the user input their
-favorite snowflake and then their deepest
+favorite snowflake and ski resort
+They will also enter their deepest
 ski day last year along with the number
 of ski days they had. It then sums 
 the two values together. The highest
@@ -12,11 +13,15 @@ number wins!
 
 def get_favorite_snowflake() -> str:
     """
-    Prompt the user for their favorite type of snowflake.
+    Prompt the user for their favorite type of snowflake and ski resort.
     """
     snowflake = input("What is your favorite snowflake?: ")
     print(snowflake)
     return snowflake
+
+    ski_resort = input("What is your favorite ski resort?: ")
+    print(ski_resort)
+    return ski_resort
 
 
 def get_snow_and_ski_stats() -> tuple[int, int]:
